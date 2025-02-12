@@ -1,0 +1,46 @@
+session 9 -> test then viva
+
+what is a program?
+set of instructions to do a task based on data
+a programs cannot exist without data and instructions
+
+data -> anything that appears in literal i.e. 23,4,5.5,.. i.e. raw information.
+Captures in the form of variables to process that data further.
+Say in large data garthering sites like Instagram, the variable will fall short to compute and a lot of data will not be nice utilized and managed (time and space complexity, efficient data retrieval, increased data security).
+
+We will need a structure to manage space efficiently.
+Structure -> specifies logical relation (one data point pointing to another point) b/w various data elements and how they are kept in memory. 
+
+which data structure to be use in a case? --> by the end of course
+
+data stored as pictures -> Matrix -> Byte as values b/w 0 to 255 -> Array
+data stored as audio -> Binary File -> DataStream will read into Byte Array
+
+in big companies like FAANG, they do not directly use a framework but will build them if they find any problems in it like facebook created React.js
+
+Q)) best in ps, how?
+{roll no : [12,32,21,..]} -> {roll no. : 234,..} 
+only one dictionary/Hash map and do the sum and replace the list with it.
+
+Searching more often -> hashmap 
+Insertion bad -> hashmap
+
+Attendance type thing -> Linked List
+
+Insta Posts, we need to see the latest one first, first in last out = Stack
+Customer Calling, Ticket Booking, First in first out = Queue
+
+how are Queues formed? Which one is Priority Queue and which one is normal one?
+
+Game = Mixture of Possibilities using different kinds of Data Structures and Algorithms
+Algorithms -> only work on Data Structures
+
+Data Security -> Encapsulation with getters and setters
+Admins see the marks of his and other users but other users can't see Admins
+
+Adaptability -> Converting data structures into one other
+
+Data Structures: 2 types i.e. Primitive and Non-Primitive
+Integer tells how to store data to cpu so it is also qualified
+
+Non-Primitive -> Linear(in straight Line) -> Direct Access (Array and Matrix) and Sequential Access (Linked List, Stack, Queue) and Non-Linear(not in straight Line) -> Hierarchal (Tree, Heap, Tries) and Unordered (Graphs, Sets, Hash Tables)
