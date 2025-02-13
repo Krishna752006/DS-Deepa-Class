@@ -1,0 +1,27 @@
+Array is a non primitive data structure.
+
+Is it defined by user? library? ..
+
+Similar to Java
+
+add an element in 6th position what happens?
+
+when you insert elements are shifted to right and if added in start, the last element will be deleted
+
+Array -> fixed length and the elements are accessed via index
+
+insert(data element,index)
+
+say [10,11,12,13,14] and insert(100,3) then result[10,11,12,100,13] we are not replacing but inserting and shifting the remaining places.
+
+insert() != a[i+1]=a[i] -> wrong as it gives wrong shifting results
+insert() = a[i] = a[i-1] -> shifting from the back to yield better and desired results
+
+delete() -> shift to the left side
+
+delete by index, element, min element, max element
+
+mountain array(with one peak) [12,13,24,15,6]
+not a mountain array [12,13,24,15,16]
+
+try with 2 peaks....
