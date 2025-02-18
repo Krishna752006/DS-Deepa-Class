@@ -1,0 +1,11 @@
+Boolean Flag, Semaphone - concept used in Mountain Array
+
+Equilibrium - for an element, left side sum = right side sum
+
+using total sum and subtracting left sum, we can figure out a method to solve the problem
+
+Insertion Sort - revised
+
+Find out the missing number
+
+using binary search give the missing index
