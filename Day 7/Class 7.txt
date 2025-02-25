@@ -1,0 +1,62 @@
+Recap of previous sems
+
+[[0,1,2,3],[4,5,6,7]] say address of 1 = 2000 then what is address of 6(2D Array)?
+
+row major or column major, by default, it is row major i.e. after 3,4,5 will come and so on...
+
+say in column major, 0,4,1,5...
+
+integer pointer ...
+
+a[row][column]
+
+for slicing using pointer -> we nned to know row major or column major...
+
+calloc, malloc -> dynamically allocating memory
+
+static vs dynamic memory?
+when do they die? when are they created?
+
+stack created -> static memory
+outside stack -> dynamic memory (Objects) -> heap
+
+stack + heap -> on RAM
+
+main()
+{
+int a[5]; -> in stack or heap?
+int a[] = new int[10]; -> given 20 bytes at runtime(dynamic)
+delete a; -> to destroy memory on heap
+}
+
+normal array vs dynamic array ?
+
+class = state + behaviour
+
+methods in c++ can be outside class
+main method can be without class in c++
+
+package level in c++?
+
+class ending };
+
+Pen p(12,99.9,"Camlin"); -> On stack
+Pen p1 = new Pen(13,43.34,"Gold"); -> Error
+Pen *p1 = new Pen(13,43.34,"Gold") -> Created on Heap, preferred by c++ as in stack there is limited space on compared to heap
+p1->display(); //Heap
+p.display(); //Stack
+delete p; //error as it is static
+delete p1;
+
+`Pen()
+{
+cout << "Destructor called";
+}
+
+sum of all the variables defined in the stack
+
+300 lines , os help, harddrive, stack, cashing ...
+
+cashe -> stored data that is used frequently
+
+2 ways of creating objects in c++ -> static(less time, slow, less space) and dynamic
