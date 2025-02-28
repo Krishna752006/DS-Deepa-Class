@@ -1,0 +1,51 @@
+Static array of dynamic elements --> .....
+
+Operator overloading
+
+Pen p(20,"Camlin");
+Pen p1(30,"Hero");
+Pen p3 = p + p1;
+
+Pen operator +(Pen pp)
+{
+    float newPrice = this->price + pp.price;
+    Pen l(newPrice, this->name+pp.name);
+    return l;
+}
+
+bool operator ==(Pen pp)
+{
+    return ((this->price == pp.price) && (this->name==pp.name));
+}
+
+bool operator <(Pen pp)
+{
+}
+
+cout << p==p1 << endl; //error as << sees p and it doesn't know what it is, it only 
+cout << (p==p1) << endl; //knows how to print primitive datatype & so we use brackets()
+
+p + p1 + p2 ?
+
+what happens if p is static and p1 is dynamic?
+
+
+friend function ... // when one operand is a library file i.e. both are not of same type
+
+friend ostream& operator <<(ostream & os, const Pen& p); //Abstract method (inside the Pen class)
+
+friend ostream& operator <<(ostream & os, const Pen& p) //Outside the Pen class
+{
+   os << "Pen Name: " << p.name << ", Price: " << p.price;
+   return os;
+}
+
+
+Call by Value, Call by Reference ...
+
+void m1(Pen p)
+{
+    p.name = "Changed Name"; //Camlin as it is call by value as it is static value
+}
+
+...(after this point I gave up)
