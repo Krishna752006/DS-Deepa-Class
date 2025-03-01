@@ -10,7 +10,7 @@ integer pointer ...
 
 a[row][column]
 
-for slicing using pointer -> we nned to know row major or column major...
+for slicing using pointer -> we need to know row major or column major...
 
 calloc, malloc -> dynamically allocating memory
 
@@ -55,7 +55,7 @@ cout << "Destructor called";
 
 sum of all the variables defined in the stack
 
-300 lines , os help, harddrive, stack, cashing ...
+300 lines , OS help, hard drive, stack, cashing ...
 
 cashe -> stored data that is used frequently
 

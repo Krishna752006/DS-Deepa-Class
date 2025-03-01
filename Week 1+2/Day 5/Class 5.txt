@@ -1,0 +1,24 @@
+main() -> only called by compiler
+
+call stack
+
+Method invoke itself -> Recursion
+
+continuously calling will lead to stack overflow Exception
+
+time complexity as compared to a loop?
+
+base condition --> Condition to stop creating infinite stacks
+-->placed before recursion
+
+when recursion is used ? Ans: when big problem mechanism = small problem mechanism
+
+E.g.: Opening 7 Directories, same action i.e. clicking 7 times to get to the end point ( last file ) i.e. base condition
+
+Think of function(a, b) not as computer one but as mathematical one i.e. f(x) 
+like f(5) = 5 + f(4) ...
+
+Identify whether a problem can be solved through recursion
+Arithmetic Progression -> can't be solved through regression
+
+recursion on sum of natural numbers, factorial, a to the power of b

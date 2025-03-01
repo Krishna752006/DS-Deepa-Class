@@ -1,10 +1,10 @@
-Task Manager -> Very Important, if you learn this you have learn't the Operating System and Recuiters expect you to know this thoroughly.
+Task Manager -> Very Important, if you learn this you have leant the Operating System and Recruiters expect you to know this thoroughly.
 
 It has network card ..., GPU ..., 
 
 task manager -> managers tasks, tasks -> process, through command line prompts you can perform tasks
 
-firewall through cmd? -> yes
+firewall through CMD? -> yes
 
 through firewall we can control the access of network in a pc...
 
@@ -13,7 +13,7 @@ cron job ..?
 
 Binary Search (Only in a sorted Array)
 
-l = 0, r = size - 1, m = l+((r-l)/2)
+l = 0, r = size - 1, m = l+((r-l)/2) (To Avoid Boundary cases as if r and l are big and if we do r + l, it will go out of range of storage in int)
 
 [1,3,5,7,9,18] -> say target is 3
 

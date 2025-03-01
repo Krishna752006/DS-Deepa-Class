@@ -10,7 +10,7 @@ when you insert elements are shifted to right and if added in start, the last el
 
 Array -> fixed length and the elements are accessed via index
 
-insert(data element,index)
+insert(data element, index)
 
 say [10,11,12,13,14] and insert(100,3) then result[10,11,12,100,13] we are not replacing but inserting and shifting the remaining places.
 
