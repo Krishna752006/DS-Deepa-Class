@@ -1,0 +1,60 @@
+Linked List
+
+Disadvantage of dynamic Array -> we go with single linked list
+
+Abstract Data Type (ADT) -> tell what this data structure can do
+
+ADT of dynamic array: add(),remove(),insert(),delete() -> abstract data type in c++ is similar to interface in java
+
+class DA implements ADT
+
+add -> start/end
+insert -> at any desired location
+
+add -> takes element, checks if it is full, then add or else error 
+-> not simply adding in the array but a lot of things are happening at a time
+
+if [10,2,3,3] i.e full array, then when we use add, the length doubles i.e. becomes 8 then 16, then 32 and so on as an array is contigous. This causes a lot of data loss and also in static memory, stack overflow occurs and in dynamic array, a lot of space wasted
+
+to make a better use, instead of contiguous memory, take memory from anywhere free in the memory.
+
+say, 1 at 1000 and 1 will know that 2 is at 234 and 2 will know that 3 is at 4321 and so on till last one will point to null.
+
+
+Chaining
+
+
+pointer being part of a circle class, half element and half pointer address
+
+
+class Node
+{
+    string name;
+    Node *ptr;
+
+    Node(string name):name(name),ptr(nullptr) {}
+    ~Node(){ cot << "Destructor called for " << name <<endl;}
+};
+
+int main()
+{
+Node *n1 = new Node("KMIT");
+}
+
+head, temporary variable
+
+while(temp->next != nullptr)
+{
+temp = temp->next;
+}
+
+
+void display()
+{
+...
+}
+
+while(temp->next != nullptr)
+{
+cout << ...
+}
