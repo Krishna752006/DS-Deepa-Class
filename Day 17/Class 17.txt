@@ -1,0 +1,28 @@
+Queue with SLL
+
+enqueue(a) -> like push
+dequeue() -> like pop
+
+bookmyshow interested queue based on your queue no. you will be given choice to book. The number of people is basically size of the queue at that time.
+
+Learn Where do we use these Data Structures in day to day life -> Software Engineer
+Just LeetCode Problems -> Not a complete Software Engineer
+
+Queue/Stack size fixed -> Array
+Queue/Stack size dynamic -> SLL
+
+While Sending multiple Messages -> first message is sent first, then second message and thus here the order is maintained.
+
+class Queue
+{
+Node *first;
+Node *last;
+enqueue(int a);
+dequeue();
+size();
+isEmpty();
+}
+
+Queue using 2 Stacks, in enqueue insert into stack1 and when dequeue stack2 elements will be transferred into stack2 so now the element will be in a order that satisfies queue's dequeue.
+
+Stack using 1 Queue done by me, Man told using 2 Queues.
