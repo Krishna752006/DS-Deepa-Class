@@ -1,0 +1,11 @@
+Sorting in a Stack
+
+Max/Min in Stack
+
+Opening/Closing Brace thing
+{()}{()} correct
+{((([])))} correct
+
+Using Stack
+
+Next Class -> Monotonic Increasing/Decreasing
