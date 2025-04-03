@@ -11,7 +11,7 @@ only insertion and deletion
 
 in array, for insertion-deletion not good as all elements will be moved -> time complexity will be high
 
-SLL here and not DLL as in DLL there will be no use of previous pointer and for better traversion in SLL
+SLL here and not DLL as in DLL there will be no use of previous pointer and for better traversing in SLL
 
 in real life we see DLL as in browser, i.e. next page and previous page
 
