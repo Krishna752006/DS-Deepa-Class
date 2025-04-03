@@ -1,0 +1,20 @@
+Templates of C++ building and using it
+
+Template is a generic blueprint that works with any type of data unlike class that works with specific data type e.g.: int stack, string stack, etc...
+
+This is used when we are using multiple data types in code.
+This is like Generics in Collections in java.
+
+#include <stack> -> library or Template in C++
+
+Stack -> used in sequences, min, max, range time series
+
+monotonic stack
+
+monotonic increasing stack -> highest is at top
+monotonic decreasing stack -> lowest is at top
+
+Next Greater element using stack
+No. of days for warmer Temp
+Previous Greater Element
+Next Smaller Element
