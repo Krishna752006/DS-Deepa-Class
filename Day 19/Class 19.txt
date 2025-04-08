@@ -1,0 +1,50 @@
+Tree Concept Started
+
+Recursions needed in this Data Structure
+
+it is a Non-Linear DS i.e. not linear in nature i.e. not where to get to 3rd element, you have to go through 2nd element in one after another fashion.
+
+It Mainly deals with the handling of in Hierarchical Structure.
+
+E.g.: File System, Family Tree, During Shopping we go through Categories to items to so on.., Organizational Chat like Class Teachers to Teachers to CRs to Students to ..., Cases in court like civil cases, alimony cases, so on.., Databases stored in computer are in the form of trees like for MySQL B+/B- Trees, etc...
+
+For Non-Linear -> Netflix Recommendation System i.e. 1 movie being Korean, Sci-Fi and many more
+
+'is a' relation -> Tree
+It has no cycles.
+
+Relations Expressed in Linear: 1-1, Non-Linear: 1-1,M-1,M-N,1-M (like the things in DBMS)
+
+Graphs are trees with cycles in it. It shows a Relation where every Node is given equal importance. Good in routes since each is given equal importance.
+
+E.g.: Insta/Social Media friends (a to b to c to d to a), Google Maps...
+
+Set -> Union, Intersection, ...
+Tables -> Hash Tables/Dictionary
+
+Non-Linear DS can show complex relations(M-N,M-1,1-1,1-M) really easily and also the data retrieval is really effective.
+
+Sets + Tables: Sorted using the technique called Hashing thus the searching becomes faster in these two.
+
+Q))Differentiate b/w Linear and Non-Linear DS in 5-6 Points
+
+Tree = Nodes + Links
+Nodes = Parent + Child + Sibling (no. parent's sibling bullshit and so like that)
+Edges = No. of Nodes - 1
+
+Top Node = Root Node
+Leaf/External Node = Last Node with no Children
+Internal Node = Node with at least 1 Child Node
+Path = From 1 Node to Another, just Upwards
+Subtree = Tree from Node Descendants
+Level = Nodes with same depth
+
+Degree = No. of Child Nodes
+Size = Total no. of Nodes in a Tree
+
+Depth = Length of Path from Node to Root
+Height = Longest Path to Leaf Node
+
+Height from Down to up and Depth from top to bottom
+
+Did the Quiz Sheet given by Deepa Mam.
