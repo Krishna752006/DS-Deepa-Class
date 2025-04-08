@@ -1,0 +1,5 @@
+Double linked list with next ptr and previous ptr, deepa test.
+
+3 questions -> add(Node n), addAfter(Node n, int data), remove(int data)
+
+God chocked vary hard.

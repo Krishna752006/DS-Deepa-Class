@@ -1,0 +1,5 @@
+practice on single linked list
+
+pointers very confusing need to learn.
+
+everything done in array can be done in linked list.

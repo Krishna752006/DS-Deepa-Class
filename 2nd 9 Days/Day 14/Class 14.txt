@@ -1,0 +1,103 @@
+What ever we did in test doing in coding + some real life problems
+
+in real-life, you have to first check which data structure to be use in that case as we have so many dsa cases
+
+example in interview, we are not asked to use 'Set' but create and modify it according like always it should be sorted.
+
+Say, told to create a list means we need to know which on in specific, is it SLL, DLL, CLL or any other best suited for the scenario.
+
+search not there -> no hashing
+only insertion and deletion
+
+in array, for insertion-deletion not good as all elements will be moved -> time complexity will be high
+
+SLL here and not DLL as in DLL there will be no use of previous pointer and for better traversing in SLL
+
+in real life we see DLL as in browser, i.e. next page and previous page
+
+Circular LL -> the last points to first/ any thing is first
+
+say, to design a data structure in which no remove to be there, insertion very fast, it should be pagination i.e. in one page x search results like google search...
+
+we will be able to achieve these only when we are able to know the basic code of the dsa
+
+best way to Creating all these applications is go from basics like taking mud and building clay structures through it.
+
+display will call paginate as it is concern of display and no of the user
+
+Below is a simple algorithm of the paginate function (incomplete one)
+int display(int pageno)
+{
+int pageiate(head,no.of nodes)
+{
+length(DLL)/no. of nodes
+...
+}
+}
+
+For Shopping 
+
+Class Product
+{
+price, name, brand, quantity, ...
+Product()
+{
+...
+}
+float operator +(Product p)
+{
+return this->price + p->price;
+}
+int operator +(int q)
+{
+return this->quantity + q; // can't give Product p as this will cause error as price is 
+                           // already taking the Product p, basic polymorphism
+                           // definition
+}
+}
+Class Node
+{
+ Product ... // the node will have the access to the product object
+}
+int main()
+{
+Product *p1 = new Product("Colgate",45.00);
+Product *p2 = new Product("Close up",50.00);
+Product *p3 = new Product("Meshawk",49.00);
+Product *p4 = new Product("Something",55.00);
+SLL *s = new SLL();
+s->add(p1); // better that user here manually creating as Node *n = new Node(p) and then
+            // giving the Node this is basically abstraction as we are not providing the 
+            // the details of the Node and thus abstracting is done here in this
+            // scenario
+s->calculateTotal(); // p1+p2+p3 i.e. operator overloading, this is better as here also
+                     // abstraction is used instead of doing sum += p->price, not top
+                     // class coder
+s->highestPrice(); // here also we need to apply the thus learn't skills
+s->calulateQuantity(); // polymorphism i.e. overload the operator overloading of
+                       // p1 + p2 + p3
+}
+
+
+example
+ _         _
+|0 0 0 1 0 0|
+|0 0 0 0 0 0|
+|2 0 0 1 0 0|
+[0 0 3 0 0 0] (4 X 6) 
+
+Here the data is bad as a lot of proper space is getting wasted and only 4 elements are actual value. Here we not only need to take the data value but also the position i.e. row and column. 
+
+Row + Column + Data and pointer pointing
+
+Sparce Matrix ... -> idk
+
+anything given, think as can i store it in a list 
+then the type of list i.e. SLL, DLL, CLL or any other
+then group of elements being stored in the node
+then start designing and coding the data structure required
+
+swapping, sorting in linked list
+
+often best developer solution is worst for computer and vise versa 
+-> so think in the terms of time complexity and space complexity.

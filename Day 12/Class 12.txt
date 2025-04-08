@@ -1,5 +1,0 @@
-Reverse of a Linked List
-
-3 pointers -> previous, current and next pointers to achieve in reversing the linked list
-
-Intersection of Linked List
