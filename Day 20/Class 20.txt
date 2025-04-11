@@ -1,0 +1,43 @@
+Again today no PC and only in Notes.
+
+Binary Tree -> Tree where each node has at max of 2 children, left child and right child.
+
+Full Binary Tree -> Binary Tree + Node has 0/2 children
+
+Perfect Binary Tree -> Binary Tree + All Leaf Nodes at same level + Each Parent has 2 children
+
+Even a single root Node is considered as a Tree, Binary Tree, ...
+
+For Perfect Binary Tree Total No. of Nodes at level k (0-Indexed) = 2^k
+
+Complete Binary Tree -> Binary Tree + Every Level has to be completely filled + Adding element starts from left side i.e. all to be 2 children except last one can be 1/2.
+
+Pathological/Degenerated Tree -> Tree with Nodes having single child either on left/right side.
+
+No. of Levels = No. of Nodes
+Height = Levels - 1
+
+Skewed Tree -> Pathological Tree with left/right dominated. 2 Types: Left Skewed and Right Skewed.
+
+Balanced Binary tree -> Binary Tree + Root df = 1,
+where df = |height of left sub tree - height of right sub tree|
+
+For a Binary Tree,
+
+h = Height of Tree
+n = No. of Nodes
+k = Level Index (0 Indexed)
+l = No. of Leaf Nodes
+
+Edges = n - 1
+Maximum Nodes at Level k = 2^k
+Maximum Nodes with Height h = 2^(h+1) - 1
+
+Minimum height of BT with N Nodes = |_log2(n)_|, where |_ is the floor Function
+
+Max Height = N-1
+N = 2L-1 (for Full BT)
+
+A Binary Tree will be of the form of Data + Leftptr + Rightptr in a Node and connecting it to other Nodes.
+
+Program I did not get it....
