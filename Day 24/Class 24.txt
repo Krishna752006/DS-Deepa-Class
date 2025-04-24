@@ -1,0 +1,9 @@
+insort/preorder/postorder ...
+
+insert node anywhere...
+
+insert and delete in binary tree -> not in syllabus but learn
+
+binary search tree -> left if less and right if more
+
+inorder of BST is always sorted
