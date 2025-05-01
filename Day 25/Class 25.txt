@@ -1,0 +1,8 @@
+Pattern in hiring is changing as companies are seeing what is the approach being used by the student and is it AI based or not, if it is get lost. More day to day real life scenarios based problems are being asked. 
+
+How is your solution much better than AI, what are the tools used and how are you using them?
+
+
+Successor -> If the node has right pointer pointing to a node, it is the smallest number in the right subtree and if not, it is the parent element.
+
+This all lagged for 2 hrs....

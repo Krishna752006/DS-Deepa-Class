@@ -1,0 +1,9 @@
+Usage of Vectors...
+
+Paths.. top to bottom
+
+Longest Path..
+
+Height ... bottom to top / top to bottom
+
+Balanced Tree shit..
