@@ -1,0 +1,11 @@
+Graphs..
+
+ordered collection... index starts with 0...
+
+list of list/vector of vector
+
+Adjancy Matrix
+
+Map...
+
+Graphs using String, Pen ...
