@@ -17,6 +17,10 @@ using namespace std;
 
 // Function to add an edge between two vertices
 void addEdge(vector<vector<int>>& adj, int i, int j) {
+    int maxIndex = max(i, j);
+    if (adj.size() <= maxIndex) {
+        adj.resize(maxIndex + 1);
+    }
    adj[i].push_back(j);
    adj[j].push_back(i);
 }
